@@ -1,0 +1,530 @@
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+
+            <div class="carousel-indicators">
+
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1">
+                    <span></span>
+                </button>
+
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2">
+                    <span></span>
+                </button>
+
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3">
+                    <span></span>
+                </button>
+
+            </div>
+
+            <!-- original size height - 424 -->
+            <!-- original image height 431   -->
+
+            <div class="carousel-inner" style="height: 340px;">
+
+                <!-- <div class="carousel-item active">
+                        <div class="row bg-container-slider">
+                            <div class="col-6 col-md-6 d-flex flex-row-reverse">
+                                <div class="position-relative">
+                                    <img style="height: 355px;" src="assets/slide-1.png">
+                                    <button type="button" class="btn btn-2 position-absolute"
+                                        style="left: 53%; top: 92%">Ver mapas [Clic Aqui]</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row"
+                            style="background: linear-gradient(90deg, rgba(215,237,250,1) 53%, rgba(255,255,255,1) 50%);">
+                            <div class="col-6 col-md-6 d-flex flex-row-reverse">
+                                <div class="position-relative">
+                                    <img style="height: 355px;" src="assets/slider-2.png">
+                                    <button type="button" class="btn btn-2 position-absolute"
+                                        style="left: 53%; top: 92%"> Infografía [Clic Aqui] </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row"
+                            style="background: linear-gradient(90deg, rgba(215,237,250,1) 20%, rgba(255,255,255,1) 40%);">
+                            <div class="col-6 col-md-6 d-flex flex-row-reverse">
+                                <div class="position-relative">
+                                    <img style="height: 355px;" src="assets/slider-3.png">
+                                    <button type="button" class="btn btn-2 position-absolute"
+                                        style="left: 53%; top: 92%"> Hechos [Clic Aqui] </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                <div class="carousel-item active">
+                    <img style="height: 350px;" src="assets/slide-1.svg">
+                    <button type="button" class="btn btn-2 position-absolute" style="left: 65%; top: 85%">
+                        Ver mapas <strong>[Clic Aqui]</strong>
+                    </button>
+                </div>
+
+                <div class="carousel-item">
+                    <img style="height: 350px;" src="assets/slider-2.png">
+                    <button type="button" class="btn btn-2 position-absolute" style="left: 65%; top: 85%">
+                        Infografía <strong>[Clic Aqui]</strong>
+                    </button>
+                </div>
+
+                <div class="carousel-item">
+                    <img style="height: 350px;" src="assets/slider-3.png">
+                    <button type="button" class="btn btn-2 position-absolute" style="left: 65%; top: 85%">
+                        Hechos <strong>[Clic Aqui]</strong>
+                    </button>
+                </div>
+
+                <!-- Elemento Absoluto -->
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-bluedark" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-bluedark" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+
+        <!-- <div class="elemento-absoluto">
+                <div class="row">
+                    <div>
+
+                        <div class="d-flex align-items-center">
+                            <img src="assets/saape-1.svg">
+                        </div>
+
+                        <div class="mt-4">
+                            <p class="parrafo-2 mt-4" style="max-width: 350PX;"> Esta es la guía interactiva
+                                para el
+                                diseño del sistema de abastecimiento
+                                de agua para emergencia, SAAPE, por
+                                sismos extremos, SAAPE
+                            </p>
+                        </div>
+
+                        <div>
+                            <button type="button" class="btn btn-1" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal2">¡Empecemos!</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div> -->
+
+        <!-- <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body bg-container-modal">
+                            <div class="row">
+                                <div class="d-flex flex-md-row flex-column">
+                                    <div class="col-12 col-md-3">
+                                        <div class="padding-saape">
+                                            <img src="assets/saape-2.jpg" style="width: 240px">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-8">
+                                        <p class="parrafo-5"> En esta guía encontrarás: </p>
+
+                                        <div class="row mt-3">
+                                            <div class="d-flex flex-md-row flex-column">
+                                                <div class="col-6 col-md-4 d-flex flex-column">
+                                                    <div class="d-flex justify-content-around align-items-end">
+
+                                                        <img src="assets/img/m-mapas-geovisor.svg">
+                                                        <a href="geovisor.php" style="text-decoration:none ;">
+                                                            <p class="parrafo-3"> VISOR </p>
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <img src="assets/modal/visor-.svg">
+                                                    </div>
+                                                    <div>
+                                                        <p class="parrafo-4 padding-modal"> Un visor interactivo para
+                                                            localizar y proyectar puntos de abastecimiento de agua en
+                                                            emergencias</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 col-md-4 d-flex flex-column">
+                                                    <div class="d-flex justify-content-around align-items-end">
+                                                        <img src="assets/img/m-mapas-dark.svg">
+                                                        <a href="mapas.html" style="text-decoration:none ;">
+                                                        <p class="parrafo-3"> MAPAS </p>
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <img src="assets/modal/mapa-.svg">
+                                                    </div>
+                                                    <div>
+                                                        <p class="parrafo-4 padding-modal"> Mapas temáticos para tomar
+                                                            decisiones ante la necesidad de agua en emergencia</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 col-md-4 d-flex flex-column">
+                                                    <div class="d-flex justify-content-around align-items-end">
+                                                        <img src="assets/img/m-mapas-info.svg">
+                                                        <a href="informacion.html" style="text-decoration:none ;">
+                                                        <p class="parrafo-3"> INFO </p>
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <img src="assets/modal/info-.svg">
+                                                    </div>
+                                                    <div>
+                                                        <p class="parrafo-4 padding-modal"> Información sobre el
+                                                            proyecto de investigación con impacto social SAAPE -PUCP y
+                                                            cómo se elaboro esta guía</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-1 d-flex justify-content-end">
+                                        <button class="round-button" data-bs-dismiss="modal" aria-label="Close">
+                                            <span class="close-icon">X</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*------------------------------------------------------------------------------------------------------------------------------*
+
+<body>
+
+    <div class="pc-image-container" style="background-color: #1784A9;">
+
+        <a href="portada.html" style="text-decoration: none;">
+            <div class="control-saape-banner">
+                <div class="container-sf-saape">
+                    <div class="container-saape-logo">
+                        <img src="assets/img/saape-logo.png">
+                        <h3 class="saape-text"> <strong>SAAPE</strong> </h3>
+                    </div>
+                    <div>
+                        <h4 class="saape-banner">
+                            GUÍA PARA EL DISEÑO DEL <br> <strong> SISTEMA DE ABASTECIMIENTO DE AGUA PARA DE EMERGENCIA
+                            </strong> (SAAPE) <br> PARA LA METROPÓLI DE LIMA Y CALLAO
+                        </h4>
+                    </div>
+                </div>
+
+            </div>
+        </a>
+
+
+        <div class="control-grupos-saape">
+            <div class="control-gipedu">
+                <div style="display: flex; align-items: center;">
+                    <img src="assets/logo-pucp.png">
+                    <div>
+                        <div class="linea"></div>
+                        <h4 class="gipedu">Grupo Interdisciplinario <br> Participación e
+                            Innovación en el Desarrollo Urbano
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="control-rdis">
+                <div style="display: flex; flex-direction: row; align-items: center;">
+                    <img src="assets/logo-pucp.png">
+                    <div>
+                        <div class="linea"></div>
+                        <h4 class="rdis">Grupo de Gestión de Riesgos <br> de Desastres en
+                            Infraestructura Social y Vivienda
+                            de Bajo Costo
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="control-pucp">
+                <div style="display: flex; flex-direction: row; align-items: center;">
+                    <img src="assets/logo-pucp.png">
+                    <div>
+                        <p class="pucp2">PUCP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="hexagon-banner">
+        <img src="assets/header2.svg" class="header-2">
+    </div>
+
+    <nav class="navbar sticky-top navbar-expand-sm bg-navbar toggle-navbar-1" data-bs-theme="dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand navbar-text d-flex align-items-center" style="gap: 7px;" href="geovisor.php">
+                <img height="30" width="30" src="assets/img/menu-geovisor.svg">
+                <b>VISOR GIS</b>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="navbar-brand navbar-text d-flex align-items-center" style="gap: 7px;"
+                            href="mapas.html">
+                            <img height="35" width="35" src="assets/img/menu-planos.svg">
+                            <b>MAPAS</b>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand navbar-text d-flex align-items-center" style="gap: 7px;"
+                            href="informacion.html">
+                            <img height="30" width="30" src="assets/img/m-informacion.svg">
+                            <b>INFORMACIÓN</b>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand navbar-text d-flex align-items-center" style="gap: 7px;"
+                            href="contacto.html">
+                            <img height="30" width="30" src="assets/img/menu-contacto.svg">
+                            <b>CONTACTO</b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar sticky-top bg-navbar toggle-navbar-2">
+        <div class="container-fluid d-flex justify-content-around">
+
+            <a class="navbar-brand navbar-text navbar2-item" href="geovisor.php">
+                <img height="30" src="assets/img/menu-geovisor.svg">
+                <b>VISOR GIS</b>
+            </a>
+            <a class="navbar-brand navbar-text navbar2-item" href="mapas.html">
+                <img height="30" src="assets/img/menu-planos.svg">
+                <b>MAPAS</b>
+            </a>
+            <a class="navbar-brand navbar-text navbar2-item" href="informacion.html">
+                <img height="30" src="assets/img/m-informacion.svg">
+                <b>INFORMACIÓN</b>
+            </a>
+            <a class="navbar-brand navbar-text navbar2-item" href="contacto.html">
+                <img height="30" src="assets/img/menu-contacto.svg">
+                <b>CONTACTO</b>
+            </a>
+        </div>
+    </nav>
+
+    <center style="padding: 10px; background-color: E6F7FF;">
+        <div class="text-wrapper">MAPAS</div>
+        <p>Mapas temáticos para tomar decisiones ante la necesidad de agua en emergencia</p>
+
+    </center>
+
+
+    <div class="contenedorpmapas">
+
+        <div class="pmapasdiv1">
+            <div class="mapimgcontent">
+                <img src="assets/img/m1.jpg" class="img-fluid" onclick="mostrarModal()" alt="">
+                <!-- <div class="imgmap">
+                </div> -->
+
+                <div class="detailsmaps">
+                    <div class="titlemaps">
+                        <b>1. Área atendida por reservorios de emergencia</b>
+                    </div>
+                    <div class="txtdetailsmaps">Población por distritos que podría ser abastecida con agua por los
+                        reservorios existentes de SEDAPAL próximos a un radio de 500 metros.</div>
+                    <div class="dowlonadmaps">
+                        <a href="mapas.html">
+                            [ Descargar PDF ]
+                        </a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="mapas.html">
+                            [Descargar JPG]
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pmapasdiv1">
+            <div class="mapimgcontent">
+                <img src="assets/img/m2.jpg" alt="">
+                <!-- <div class="imgmap">
+                </div> -->
+
+                <div class="detailsmaps">
+                    <div class="titlemaps"><b>2. Espacios públicos óptimos para el SAAPE</b></div>
+                    <div class="txtdetailsmaps">Ubicación de espacios públicos clasificados según la factibilidad
+                        para implementar un punto de abastecimiento de agua de emergencia </div>
+                    <div class="dowlonadmaps">
+                        <a href="mapas.html">
+                            [ Descargar PDF ]
+                        </a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="mapas.html">
+                            [Descargar JPG]
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pmapasdiv1">
+            <div class="mapimgcontent">
+                <img src="assets/img/m3.jpg" alt="">
+                <!-- <div class="imgmap">
+                </div> -->
+
+                <div class="detailsmaps">
+                    <div class="titlemaps">
+                        <b>3. Estratos socioeconómicos en la metrópoli</b>
+                    </div>
+                    <div class="txtdetailsmaps">Distribución de la población según estratos socioeconómicos
+                        agrupados en tres niveles: 1. alto y medio alto; 2. medio; 3. medio bajo y bajo..</div>
+                    <div class="dowlonadmaps">
+                        <a href="mapas.html">
+                            [ Descargar PDF ]
+                        </a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="mapas.html">
+                            [Descargar JPG]
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pmapasdiv1">
+            <div class="mapimgcontent">
+                <img src="assets/img/m4.jpg" alt="">
+                <!-- <div class="imgmap">
+                </div> -->
+                <div class="detailsmaps">
+                    <div class="titlemaps"><b>4. Nivel de daños por sismo de 8.8 Mw </b></div>
+                    <div class="txtdetailsmaps">Daño esperado para un evento sísmico probable de 8.8 Mw por manzana.
+                    </div>
+                    <div class="dowlonadmaps">
+                        <a href="mapas.html">
+                            [ Descargar PDF ]
+                        </a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="mapas.html">
+                            [Descargar JPG]
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <img src="assets/img/saape6.svg" class="imagen-flotante" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="tituloModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="tituloModal">Título del modal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/m1.jpg" class="img-fluid">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function mostrarModal() {
+            // Agrandamos la imagen
+            document.querySelector(".img-fluid").style.width = "100%";
+            document.querySelector(".img-fluid").style.height = "100%";
+
+            // Oscurecemos el fondo
+            document.body.style.opacity = "0.5";
+
+            // Mostramos el modal
+            document.querySelector("#modal").modal("show");
+        }
+    </script>
+
+    <!-- optionally define the sidebar content via HTML markup -->
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+
+    <!-- <link rel="stylesheet" href="libs/L.switchBasemap.css" />
+    <script src="libs/L.switchBasemap.js"></script> -->
+
+    <link rel="stylesheet" href="https://domoritz.github.io/leaflet-locatecontrol/dist/L.Control.Locate.min.css" />
+    <script src="https://domoritz.github.io/leaflet-locatecontrol/src/L.Control.Locate.js"></script>
+
+    <link rel="stylesheet" href="https://noerw.github.io/leaflet-sidebar-v2/css/leaflet-sidebar.css" />
+    <script src="https://noerw.github.io/leaflet-sidebar-v2/js/leaflet-sidebar.js"></script>
+
+    <!-- Archivos del plugin leaflet.fullscreen -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.6.0/Control.FullScreen.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.6.0/Control.FullScreen.js"></script>
+
+    <!-- Archivos del plugin leaflet-search -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-search@2.9.7/dist/leaflet-search.min.css" />
+    <script src="https://unpkg.com/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+
+    <script src="js/bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="js/jquery/jquery.js"></script>
+    <script src="js/lib/esri-leaflet-vector.js"></script>
+    <script src="js/lib/esri-leaflet.js"></script>
+
+    <!-- <link rel="stylesheet" href="http://www.eseotech.com/libs/geocoder/BingGeocoder.css" /> -->
+    <!-- <script src="http://www.eseotech.com/libs/geocoder/BingGeocoder.js"></script> -->
+
+
+
+</body>

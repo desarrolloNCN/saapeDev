@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAAPE :: Sistema de Abastecimiento de Agua Para Emergencia</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <!-- Loader screen -->
+    <script type="module" crossorigin src="assets/portada-af9de9f4.js"></script>
+    <!-- ------------ -->
+    <link href="js/bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <style>
+        body {
+            background-color: #e6f7ff;
+        }
+
+        .card {
+            width: 600px !important;
+            border: none;
+            overflow: hidden;
+            transition: transform 0.3s;
+            padding: 15px;
+            ;
+        }
+
+        .row {
+            width: 600px !important;
+            margin-left: auto;
+            margin-right: auto;
+            width: (600, 50%);
+
+
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-img-top {
+            transition: opacity 0.3s;
+        }
+
+        .card:hover .card-img-top {
+            opacity: 0.7;
+        }
+
+        .card-title {
+            color: #007BFF;
+        }
+
+        .btn-primary {
+            background-color: #007BFF;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .modal-backdrop {
+            background-color: #1784A9;
+        }
+    </style>
+
+    <!-- <script type="module" crossorigin src="http://www.eseotech.com/assets/modulepreload-polyfill-3cfb730f.js"></script>
+    <script type="module" crossorigin src="http://www.eseotech.com/assets/geovisor-29bcebc4.js"></script> -->
+</head>
+
+<body style="background-color: #e6f7ff;">
+
+    <div class="preloader-2">
+        <div class="container-preloader-2" style="background: #1784A9">
+
+            <img class="anim-saape-logo" src="assets/img/rotating-logo.webp">
+
+            <p class="pp-saape-text">SAAPE</p>
+
+            <p class="text-center preloader-text"> GUÍA PARA EL DISEÑO DEL SISTEMA DE ABASTECIMIENTO DE
+                AGUA PARA EMERGENCIA PARA LA METROPOLI DE LIMA Y CALLAO
+            </p>
+
+            <div class="pp-image-container">
+
+                <div>
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+
+                        <img src="assets/logo-pucp.png">
+
+                        <div>
+                            <div class="linea"></div>
+
+                            <h4 class="gipedu">Grupo Interdisciplinario Participación e Innovación en el Desarrollo
+                                Urbano
+                            </h4>
+
+                        </div>
+                    </div>
+
+                    <div class="separetor"></div>
+                </div>
+
+                <div>
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+                        <img src="assets/logo-pucp.png">
+                        <div>
+                            <div class="linea"></div>
+
+                            <h4 class="rdis">Grupo de Gestión de Riesgos de Desastres en Infraestructura Social y
+                                Vivienda de Bajo Costo
+                            </h4>
+
+                        </div>
+                    </div>
+                    <div class="separetor"></div>
+                </div>
+
+                <div>
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+                        <img src="assets/logo-pucp.png">
+                        <div>
+
+                            <p class="pucp">PUCP</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="pc-image-container" style="background-color: #1784A9;">
+
+            <a href="portada.html" style="text-decoration: none;">
+                <div class="control-saape-banner">
+                    <div class="container-sf-saape">
+                        <div class="container-saape-logo">
+                            <img src="assets/img/saape-logo.png">
+                            <h3 class="saape-text"> <strong>SAAPE</strong> </h3>
+                        </div>
+                        <div>
+                            <h4 class="saape-banner">
+                                GUÍA PARA EL DISEÑO DEL <br> <strong> SISTEMA DE ABASTECIMIENTO DE AGUA PARA DE
+                                    EMERGENCIA
+                                </strong> (SAAPE) <br> PARA LA METROPÓLI DE LIMA Y CALLAO
+                            </h4>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+
+
+            <div class="control-grupos-saape">
+                <div class="control-gipedu">
+                    <div style="display: flex; align-items: center;">
+                        <img src="assets/logo-pucp.png">
+                        <div>
+                            <div class="linea"></div>
+                            <h4 class="gipedu">Grupo Interdisciplinario <br> Participación e
+                                Innovación en el Desarrollo Urbano
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="control-rdis">
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+                        <img src="assets/logo-pucp.png">
+                        <div>
+                            <div class="linea"></div>
+                            <h4 class="rdis">Grupo de Gestión de Riesgos <br> de Desastres en
+                                Infraestructura Social y Vivienda
+                                de Bajo Costo
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="control-pucp">
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+                        <img src="assets/logo-pucp.png">
+                        <div>
+                            <p class="pucp2">PUCP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hexagon-banner">
+            <img src="assets/header2.svg" class="header-2">
+        </div>
+
+        <nav class="navbar sticky-top navbar-expand-sm bg-navbar toggle-navbar-1" data-bs-theme="dark">
+            <div class="container-fluid">
+
+                <a class="navbar-brand navbar-text d-flex align-items-center" style="gap: 7px;" href="https://saape.ncn.pe/geovisor/">
+                    <img height="30" width="30" src="assets/img/menu-geovisor.svg">
+                    <b>VISOR GIS</b>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="navbar-brand navbar-text d-flex align-items-center" style="gap: 7px;"
+                                href="mapas.html">
+                                <img height="35" width="35" src="assets/img/menu-planos.svg">
+                                <b>MAPAS</b>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand navbar-text d-flex align-items-center" style="gap: 7px;"
+                                href="informacion.html">
+                                <img height="30" width="30" src="assets/img/m-informacion.svg">
+                                <b>INFORMACIÓN</b>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand navbar-text d-flex align-items-center" style="gap: 7px;"
+                                href="contacto.html">
+                                <img height="30" width="30" src="assets/img/menu-contacto.svg">
+                                <b>CONTACTO</b>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar sticky-top bg-navbar toggle-navbar-2">
+            <div class="container-fluid d-flex justify-content-around">
+
+                <a class="navbar-brand navbar-text navbar2-item" href="https://saape.ncn.pe/geovisor/">
+                    <img height="30" src="assets/img/menu-geovisor.svg">
+                    <b>VISOR GIS</b>
+                </a>
+                <a class="navbar-brand navbar-text navbar2-item" href="mapas.html">
+                    <img height="30" src="assets/img/menu-planos.svg">
+                    <b>MAPAS</b>
+                </a>
+                <a class="navbar-brand navbar-text navbar2-item" href="informacion.html">
+                    <img height="30" src="assets/img/m-informacion.svg">
+                    <b>INFORMACIÓN</b>
+                </a>
+                <a class="navbar-brand navbar-text navbar2-item" href="contacto.html">
+                    <img height="30" src="assets/img/menu-contacto.svg">
+                    <b>CONTACTO</b>
+                </a>
+            </div>
+        </nav>
+
+        <center style="padding: 10px; background-color: E6F7FF;">
+            <div class="text-wrapper">MAPAS</div>
+            <p>Mapas temáticos para tomar decisiones ante la necesidad de agua en emergencia</p>
+
+        </center>
+
+
+        <div class="contenedorpmapas">
+
+            <div class="pmapasdiv1">
+                <div class="mapimgcontent ">
+                    <div class="zoom" >
+                        <img src="assets/img/m1.jpg" data-bs-toggle="modal" data-bs-target="#staticBackdrop" alt="">
+                    </div>
+                    <!-- <div class="imgmap">
+                    </div> -->
+
+                    <div class="detailsmaps">
+                        <div class="titlemaps">
+                            <b>1. Área no atendida por reservorios de emergencia</b>
+                        </div>
+                        <div class="txtdetailsmaps">Población por distritos que podría ser abastecida con agua por los
+                            reservorios existentes de SEDAPAL próximos a un radio de 500 metros.</div>
+                        <div class="dowlonadmaps">
+                            <a href="mapas.html">
+                                <b>[Descargar PDF]</b> 
+                            </a>
+
+                            <a href="mapas.html">
+                               <b>[Descargar JPG]</b>  
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pmapasdiv1">
+                <div class="mapimgcontent ">
+                    <div class="zoom" >
+                        <img src="assets/img/m2.jpg" data-bs-toggle="modal" data-bs-target="#staticBackdrop2" alt="">
+                    </div>
+                    <!-- <div class="imgmap">
+                    </div> -->
+
+                    <div class="detailsmaps">
+                        <div class="titlemaps"><b>2. Espacios públicos óptimos para el SAAPE</b></div>
+                        <div class="txtdetailsmaps">Ubicación de espacios públicos clasificados según la factibilidad
+                            para implementar un punto de abastecimiento de agua de emergencia </div>
+                        <div class="dowlonadmaps">
+                            <a href="mapas.html">
+                                [ Descargar PDF ]
+                            </a>
+
+                            <a href="mapas.html">
+                                [Descargar JPG]
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pmapasdiv1">
+                <div class="mapimgcontent ">
+                    <div class="zoom" >
+                        <img src="assets/img/m3.jpg" data-bs-toggle="modal" data-bs-target="#staticBackdrop3" alt="">
+                    </div>
+                    <!-- <div class="imgmap">
+                    </div> -->
+
+                    <div class="detailsmaps">
+                        <div class="titlemaps">
+                            <b>3. Estratos socioeconómicos en la metrópoli</b>
+                        </div>
+                        <div class="txtdetailsmaps">Distribución de la población según estratos socioeconómicos
+                            agrupados en tres niveles: 1. alto y medio alto; 2. medio; 3. medio bajo y bajo..</div>
+                        <div class="dowlonadmaps">
+                            <a href="mapas.html">
+                                [ Descargar PDF ]
+                            </a>
+                            <a href="mapas.html">
+                                [Descargar JPG]
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pmapasdiv1">
+                <div class="mapimgcontent ">
+                    <div class="zoom" >
+                        <img src="assets/img/m4.jpg" data-bs-toggle="modal" data-bs-target="#staticBackdrop4" alt="">
+                    </div>
+                    <!-- <div class="imgmap">
+                    </div> -->
+                    <div class="detailsmaps">
+                        <div class="titlemaps"><b>4. Nivel de daños por sismo de 8.8 Mw </b></div>
+                        <div class="txtdetailsmaps">Daño esperado para un evento sísmico probable de 8.8 Mw por manzana.
+                        </div>
+                        <div class="dowlonadmaps">
+                            <a href="mapas.html">
+                                [ Descargar PDF ]
+                            </a>
+
+                            <a href="mapas.html">
+                                [Descargar JPG]
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <img src="assets/img/saape6.svg" class="imagen-flotante" />
+
+        <!-- Modal -->
+        <div>
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Área atendida por reservorios de
+                                emergencia</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img width="100%" height="100%" src="/assets/img/mapas_hd/resized/mapa_area_no_atendida.jpg">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Espacios públicos óptimos para el
+                                SAAPE</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img width="100%" height="100%"
+                                src="assets/img/mapas_hd/resized/mapa_espacios_publicos_optimos.jpg">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Estratos socioeconómicos en la
+                                metrópoli</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img width="100%" height="100%" src="assets/img/mapas_hd/resized/mapa_socioeconomico.jpg">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Nivel de daños por sismo de 8.8 Mw
+                            </h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img width="100%" height="100%" src="assets/img/mapas_hd/resized/mapa_nivel_de_daño.jpg">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- optionally define the sidebar content via HTML markup -->
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+
+    <!-- <link rel="stylesheet" href="libs/L.switchBasemap.css" />
+    <script src="libs/L.switchBasemap.js"></script> -->
+
+    <link rel="stylesheet" href="https://domoritz.github.io/leaflet-locatecontrol/dist/L.Control.Locate.min.css" />
+    <script src="https://domoritz.github.io/leaflet-locatecontrol/src/L.Control.Locate.js"></script>
+
+    <link rel="stylesheet" href="https://noerw.github.io/leaflet-sidebar-v2/css/leaflet-sidebar.css" />
+    <script src="https://noerw.github.io/leaflet-sidebar-v2/js/leaflet-sidebar.js"></script>
+
+    <!-- Archivos del plugin leaflet.fullscreen -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.6.0/Control.FullScreen.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.6.0/Control.FullScreen.js"></script>
+
+    <!-- Archivos del plugin leaflet-search -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-search@2.9.7/dist/leaflet-search.min.css" />
+    <script src="https://unpkg.com/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+
+    <script src="js/bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="js/jquery/jquery.js"></script>
+    <script src="js/lib/esri-leaflet-vector.js"></script>
+    <script src="js/lib/esri-leaflet.js"></script>
+
+    <!-- <link rel="stylesheet" href="http://www.eseotech.com/libs/geocoder/BingGeocoder.css" /> -->
+    <!-- <script src="http://www.eseotech.com/libs/geocoder/BingGeocoder.js"></script> -->
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,2617 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+@font-face {
+    font-family: "TTNorms-ExtraBold";
+    src: url('../assets/TT-Norms-Fonts/TTNorms-ExtraBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "SourceSerifPro-SemiBold";
+    src: url('../assets/Source-Serif-Pro/SourceSerifPro-SemiBold.ttf') format('opentype');
+}
+
+.header-1 {
+    width: 100%;
+}
+
+.header-2 {
+    width: 100%;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-top: var(--bs-gutter-y);
+}
+
+/* NavBar*/
+.navbar {
+    padding: 0 0 0 0;
+}
+
+.bg-navbar {
+    background-color: #0099CC;
+}
+
+.navbar-text {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.navbar-text:hover {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.navbar-text:focus {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* Preloader-1*/
+.preloader-text {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 9999;
+}
+
+/* */
+.container-preloader-1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+/* ---------CAMBIOS-----------*/
+.container-preloader-11 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* --------------------------*/
+
+/* Preloader-2*/
+.container-preloader-2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Parrafos */
+.parrafo-1 {
+    color: #1784A9;
+    font-family: 'Outfit', sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.parrafo-2 {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.parrafo-3 {
+    color: #09C;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.parrafo-4 {
+    color: #232323;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.parrafo-5 {
+    color: #232323;
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.parrafo-6 {
+    color: #1784A9;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.parrafo-7 {
+    color: #000;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Modales-Nuevos*/
+.titulo-modal-red {
+    color: #F00;
+    font-family: Coiny;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blue-rounded-div {
+    width: 100%;
+    height: 100%;
+    background-color: #01589F;
+    border-radius: 4px;
+}
+
+.titulo-modal-blue {
+    color: #00EBFF;
+    font-family: Coiny;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.parrafo-modal {
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.parrafo-modal-2 {
+    color: #FFF;
+    font-family: Sen;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 4px;
+}
+
+.btn-modal {
+    width: 50%;
+    height: 21px;
+    border-radius: 13px;
+    background: #001C33;
+    margin-bottom: 5%;
+}
+
+.btn-modal-text {
+    color: #FBFBFB;
+    font-family: Sen;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-modal-2 {
+    width: 73%;
+    height: 100%;
+    border-radius: 4px;
+    border: 2px solid #01589F;
+    background: #F3FAFF;
+}
+
+.btn-modal-3 {
+    width: 53%;
+    height: 100%;
+    border-radius: 4px;
+    border: 4px solid #01589F;
+    background: #F3FAFF;
+}
+
+.btn-modal-text-2 {
+    color: #01589F;
+    font-family: Sen;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Botones*/
+.btn-1 {
+    color: #FFF;
+    background-color: #1784A9;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 0%;
+    width: 200px;
+    animation: bubbling 2s infinite;
+}
+
+.btn-1:hover {
+    background-color: #1784A9;
+    ;
+}
+
+.btn-2 {
+    color: #FFF;
+    background-color: #1784A9;
+    ;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    margin-right: 75px;
+    padding: 0 50px;
+    border-radius: 5px;
+}
+
+.btn-2:hover {
+    background-color: #1784A9;
+}
+
+.btn-3 {
+    color: #FFF;
+    background-color: #1784A9;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.205);
+    animation: bubbling 2s infinite;
+}
+
+.btn-3:hover {
+    background-color: #D7EDFA;
+}
+
+.round-button {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background-color: #1784A9;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Background*/
+.bg-bluedark {
+    background-color: #1784A9;
+}
+
+.bg-container-slider {
+    background-color: #D7EDFA;
+}
+
+.bg-container-modal {
+    background-color: #D7EDFA;
+}
+
+.bg-container2 {
+    background: rgb(215, 237, 250);
+    background: linear-gradient(90deg, rgba(215, 237, 250, 1) 16%, rgba(255, 255, 255, 1) 40%);
+}
+
+/* Padding's */
+.padding-modal {
+    padding: 5% 13% 5% 10%;
+}
+
+.padding-saape {
+    padding-top: 55px;
+    margin-left: 30px;
+}
+
+.modal-dialog {
+    margin-top: 9em;
+}
+
+.modal-saape {
+    width: 240px;
+    height: 300px;
+}
+
+/* Carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon {
+    margin-right: 110px;
+}
+
+.carousel-control-next-icon {
+    margin-left: 110px;
+}
+
+.carousel-control-next .carousel-control-next-icon,
+.carousel-control-prev .carousel-control-prev-icon {
+    background-size: 60%;
+}
+
+.close-icon {
+    line-height: 1;
+}
+
+.container-sm,
+.container-xl,
+.container-xxl {
+    margin-top: 10px !important;
+}
+
+.custom-indicator {
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-indicator.active {
+    background-color: #1784A9;
+}
+
+.custom-indicator:focus {
+    background-color: #1784A9;
+}
+
+.content {
+    display: none;
+}
+
+.h-100vh {
+    height: 100vh;
+    position: relative;
+}
+
+.elemento-absoluto {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    width: 500px;
+}
+
+/* @media (min-width: 576px) {
+    .elemento-absoluto {
+        position: relative;
+        top: 10%;
+        left: 7%;
+        width: auto;
+        height: auto;
+    }
+
+} */
+
+.carousel-indicators [data-bs-target] {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 24px;
+    background: #1784A9;
+}
+
+.carousel-indicators [data-bs-target] span {
+    content: ’’;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #7952b3;
+    border-radius: inherit;
+}
+
+.leaflet-sidebar-header {
+
+    background-color: #0099cc !important;
+}
+
+.leaflet-sidebar-tabs>li.active,
+.leaflet-sidebar-tabs>ul>li.active {
+    background-color: #0099cc !important;
+}
+
+.leaflet-sidebar-content {
+    scrollbar-width: thin;
+    scrollbar-color: #0c5aba #094154;
+}
+
+.leaflet-sidebar-content::-webkit-scrollbar {
+    width: 5px;
+}
+
+.leaflet-sidebar-content::-webkit-scrollbar-track {
+    background: #FFF;
+}
+
+.leaflet-sidebar-content::-webkit-scrollbar-thumb {
+    background-color: #013b4f;
+    border-radius: 6px;
+    border: 0px solid #ffffff;
+}
+
+.leaflet-bar-part-single {
+    border-radius: 50px !important;
+}
+
+.leaflet-control-locate {
+    background: #0099CC !important;
+    border-radius: 50px;
+
+}
+
+.leaflet-control-locate .leaflet-bar-part {
+    background: #0099CC !important;
+    border-radius: 50px !important;
+    color: #fff;
+}
+
+/**/
+.leaflet-sidebar-left .leaflet-sidebar-content {
+    left: 30px !important;
+    right: 0;
+}
+
+/* Estilo para el contenedor principal de la lista */
+#listadoCapas {
+    margin-top: 20px;
+}
+
+/* Estilo para los tÃ­tulos de las categorÃ­as */
+#listadoCapas h4 {
+    font-size: 12px;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los subtÃ­tulos de las organizaciones */
+#listadoCapas h5 {
+    font-size: 14px;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+/* Estilo para los elementos individuales de la lista */
+#listadoCapas label {
+    font-size: 12px;
+    color: #495057;
+    margin-right: 10px;
+}
+
+#listadoCapas input[type=checkbox] {
+    margin-right: 5px;
+}
+
+/* Estilo para cada div de la lista */
+#listadoCapas>div {
+    margin-bottom: 15px;
+}
+
+/* Estilo para el div interno de la lista */
+#listadoCapas>div>div {
+    padding-left: 20px;
+}
+
+#loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: none;
+
+}
+
+.spinner-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 8px solid #000;
+    animation: spin 2s linear infinite;
+}
+
+.spinner-image {
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite reverse;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Estilo CSS para centrar el texto */
+.centrar-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 24px;
+}
+
+/* Se realizaron cambios */
+
+.contenedorpmapas {
+    transition: width 0.7s ease;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+}
+
+/* Estilo para los divs internos */
+.div-interno {
+    flex: 1;
+    height: 100px;
+}
+
+/* ------ Se realizaron Cambios ---------- */
+
+.pmapasdiv1 {
+    width: calc(100% * (1/4) - 50px - 1px);
+    background-color: transparent;
+}
+
+.pmapasdiv1-2 {
+    width: calc(100% * (1/3) - 50px - 1px);
+    background-color: transparent;
+}
+
+
+.mapimgcontent {
+    background-color: #E6F7FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.mapimgcontent img {
+    border-radius: 10px;
+    box-shadow: -1px 1px 5px 0px rgba(99, 99, 99, 0.75);
+}
+
+.mapimgcontent-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.mapimgcontent-2 img {
+    width: 450px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* Se realizaron Cambios*/
+
+.imgmap {
+    margin-bottom: 20px;
+    /* Cambiado de margin-right a margin-bottom */
+    color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.imgmap img {
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.img-info {
+    margin-bottom: 20px;
+    color: white;
+}
+
+/*---- Se realizo Cambios ------*/
+
+.pmapasdiv2 {
+    background-color: blue;
+}
+
+.pmapasdiv3 {
+    background-color: green;
+}
+
+.pmapasdiv4 {
+    background-color: yellow;
+}
+
+.imagen-flotante {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 160px;
+    /* O el tamaño que desees */
+}
+
+.info-box {
+
+    padding: 20px 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+}
+
+.info-title {
+    color: #00aaff;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info-text {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.text-wrapper {
+    top: 0;
+    left: 254px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #0099cc;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.msj-mapa .div {
+
+    top: 60px;
+    left: 0;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #01849f;
+
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+
+
+.mapimgcontent2 {
+    background-color: #D7EDFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.detailsmaps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+}
+
+.titlemaps {
+    /* margin-top: -20px; */
+    /* padding: 10px 30px; */
+    margin-bottom: 10px;
+    color: #01849F;
+    /* border-radius: 10px; */
+    font-size: 13px;
+    text-align: center;
+}
+
+.titlemaps p {
+    margin: 0px;
+}
+
+.txtdetailsmaps {
+    /* padding: 0px 60px; */
+    margin-bottom: 10px;
+    color: #01849f;
+    /* border-radius: 10px; */
+    font-size: 11px;
+    text-align: justify;
+}
+
+/* -----------------------------*/
+
+.dowlonadmaps {
+    padding: 5px 0px;
+    color: #01849f;
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.dowlonadmaps a {
+    color: #01849f;
+}
+
+
+.center-bottom-title {
+
+    bottom: 0;
+
+}
+
+/* se realizo Cambios */
+
+.bloque-pri {
+    height: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+
+/* CSS del menú contextual */
+.context-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.context-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.context-menu li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.context-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilo para hacer los botones de zoom más grandes */
+.ol-zoom {
+    font-size: 24px;
+    /* Ajusta el tamaño de la fuente según tu preferencia */
+    width: 35px;
+    /* Ajusta el ancho del botón */
+    height: 35px;
+    /* Ajusta la altura del botón */
+    line-height: 35px;
+    /* Ajusta la altura de línea para centrar el icono */
+}
+
+.hand-cursor {
+    cursor: grab;
+    /* Cambia el cursor a una mano abierta para panning */
+}
+
+.finger-cursor {
+    cursor: pointer;
+    /* Cambia el cursor a la forma de dedo índice */
+}
+
+.tabla-densidad {
+    width: 100%;
+}
+
+.tabla-contenedor {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.tanque-contenedor {
+    max-width: 100%;
+    /* overflow: hidden; */
+}
+
+.tabla-densidad th,
+.tabla-densidad td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-densidad th {
+    background-color: #f2f2f2;
+}
+
+.tabla-densidad tr:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+/* Agrega estilos para resaltar la fila seleccionada */
+.tabla-densidad tr.selected {
+    background-color: #b3d9ff;
+    /* Cambia el color de fondo según tus preferencias */
+    color: #fff;
+    /* Cambia el color del texto según tus preferencias */
+}
+
+/* Clase para aplicar el desvanecimiento de entrada (fade in) */
+.fade-in {
+    animation: fadeIn ease 1s;
+    opacity: 0;
+}
+
+/* Clase para aplicar el desvanecimiento de salida (fade out) */
+.fade-out {
+    animation: fadeOut ease 1s;
+    opacity: 1;
+}
+
+/* Definición de las animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.desactivado {
+    cursor: default;
+    opacity: 0.5;
+    /* Puedes ajustar la opacidad según tu preferencia */
+}
+
+.icono-grande {
+    font-size: 24px;
+    /* Ajusta el tamaño según tus necesidades */
+}
+
+.botones-contenedor {
+    text-align: center;
+    margin-top: 10px;
+    /* Ajusta según sea necesario para el espacio deseado entre la tabla y los botones */
+}
+
+.direccion-input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    /* Línea inferior como separador */
+    font-size: 14px;
+    /* Ajusta el tamaño de fuente según tu diseño */
+    padding: 5px;
+    /* Ajusta el relleno según tu diseño */
+    margin-bottom: 10px;
+    /* Ajusta el margen inferior según tu diseño */
+    width: 100%;
+    /* O ajusta el ancho según tu diseño */
+    box-sizing: border-box;
+    /* Incluye el relleno y el borde en el ancho total */
+    background: none;
+    /* Fondo transparente */
+}
+
+/* Estilo para la tabla de tanques */
+.tabla-tanques {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabla-tanques th,
+.tabla-tanques td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-tanques th {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para las filas al pasar el mouse */
+.tabla-tanques tr:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+/* Estilo para la fila seleccionada */
+.tabla-tanques .fila-seleccionada {
+    background-color: #d3d3d3;
+}
+
+/* Estilo para los iconos de acciones */
+.tabla-tanques .fa {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Espaciado entre los iconos y el texto */
+.tabla-tanques td span {
+    display: inline-block;
+}
+
+.mensaje-contenedor {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-bottom: 40px;
+}
+
+.boton-siguiente,
+.boton-atras {
+    /* Agrega aquí tus estilos comunes para ambos botones */
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.boton-atras {
+    /* Agrega estilos adicionales para el botón "Atrás" si es necesario */
+    /* Por ejemplo, puedes cambiar el color de fondo o ajustar el margen */
+    background-color: #008CBA;
+    margin-left: 10px;
+    /* Ajusta según sea necesario */
+}
+
+.boton-siguiente:hover {
+    background-color: #45a049;
+}
+
+/* Estilos generales */
+.tipo-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tipo-fila {
+    display: flex;
+    gap: 10px;
+}
+
+.tipo-imagen-contenedor {
+    position: relative;
+}
+
+/* Estilos de las imágenes */
+.tipo-imagen-contenedor img {
+    width: 100%;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.tipo-imagen-contenedor img:hover {
+    border-color: #3498db;
+    /* Color de resaltado al pasar el ratón */
+    cursor: pointer;
+}
+
+.tipo-imagen-contenedor img.seleccionada {
+    border-color: #e74c3c;
+    /* Color de borde cuando la imagen está seleccionada */
+    box-shadow: 0 0 10px rgba(231, 76, 60, 0.8);
+    /* Efecto de sombra cuando la imagen está seleccionada */
+}
+
+/* Estilos de resaltado al pasar el ratón */
+.tipo-imagen-contenedor img.resaltada {
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.8);
+    /* Efecto de resaltado al pasar el ratón */
+}
+
+.deshabilitado {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/*------------------------------------------------ Estilos compartidos -----------------------------------*/
+
+/* Estilo para la animacion del logo SAAPE*/
+.anim-saape-logo {
+    width: 10%;
+}
+
+.pp-saape-text {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Estilo para el contenedor de los grupos de Inves. */
+.image-container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container img {
+    object-fit: contain;
+    height: 80px;
+}
+
+.separetor {
+    border-top: 1px solid rgb(255, 255, 255);
+    height: 2px;
+    width: 100%;
+    padding-bottom: 3px;
+}
+
+.linea {
+    border-top: 1px solid rgb(255, 255, 255);
+    height: 2px;
+    max-width: 21%;
+    padding: 0;
+}
+
+.gipedu {
+    font-family: 'SourceSerifPro-SemiBold', Georgia;
+    font-weight: 600;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: 0px;
+}
+
+.rdis {
+    font-family: 'SourceSerifPro-SemiBold', Georgia;
+    font-weight: 600;
+    width: 300px;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: 0px;
+}
+
+.pucp {
+    font-family: 'TTNorms-ExtraBold', Georgia;
+    font-weight: bold;
+    width: 120px;
+    font-size: 40px;
+    color: white;
+    margin: 0px;
+}
+
+.pucp2 {
+    font-family: 'TTNorms-ExtraBold', Georgia;
+    display: block;
+    font-weight: bold;
+    width: 120px;
+    font-size: 40px;
+    color: white;
+    margin: 0px;
+}
+
+.control-saape-banner {
+    cursor: pointer;
+    display: block;
+}
+
+.control-gipedu {
+    display: block;
+}
+
+.control-rdis {
+    display: block;
+}
+
+.control-pucp {
+    display: block;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+/*--------- Estilos para index.html  -----------------------------*/
+
+/* Estilo para el contenedor principal del iframe */
+.video-container {
+    border-radius: 10px;
+    transition: width 0.7s ease;
+    position: relative;
+    width: 55%;
+    margin: 2vh auto 0;
+}
+
+/* Estilo para el contenedor del iframe de Youtube */
+.iframe-container {
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+/* Estilo para el iframe de YouTube */
+iframe {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Contenedor del Muñeco SAAPE y Boton de ingreso   */
+.ingreso-container {
+    transition: width 0.7s ease;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para el Muñeco de SAAPE */
+.saape-avatar {
+    width: 10%;
+    height: auto;
+    margin-right: 10vh;
+}
+
+/* ------------------ Estilos para Portada.html -------------------------- */
+
+
+/* Estilo para los logos de los grupos de Inves. */
+
+.pp-image-container {
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    display: block;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Estilo para los logos de los grupos de Inves. */
+.pp-image-container img {
+    object-fit: contain;
+    height: 80px;
+}
+
+.preloader-text {
+    padding-inline: 25%;
+    font-size: 25px;
+}
+
+/* --------- Estilos para el "Stands For" de SAAPE ------ */
+
+.container-sf-saape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-saape-logo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-saape-logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.saape-text {
+    color: white;
+    margin: 0px;
+    font-size: 17px;
+}
+
+.saape-banner {
+    font-size: 15px;
+    width: 400px;
+    color: white;
+    margin: 0px;
+}
+
+.pc-image-container {
+    display: block;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pc-image-container img {
+    object-fit: contain;
+}
+
+.control-grupos-saape {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.control-gipedu img {
+    width: 60px;
+    height: 55px;
+}
+
+.control-gipedu .gipedu {
+    width: 280px;
+    font-size: 14px;
+}
+
+.control-rdis img {
+    width: 50px;
+    height: 50px;
+}
+
+.control-rdis .rdis {
+    width: 280px;
+    font-size: 14px;
+}
+
+.control-pucp img {
+    width: 50px;
+    height: 50px;
+}
+
+.pucp2 {
+    font-size: 23px;
+    width: 75px;
+}
+
+.toggle-navbar-1 {
+    display: none;
+}
+
+.toggle-navbar-2 {
+    display: block;
+}
+
+/* --------   Hexagonos Segundo Header  ------------------------------ */
+
+.hexagon-banner {
+    transition: width 0.7s ease;
+    display: block;
+    overflow: hidden;
+}
+
+.hexagon-banner img {
+    margin-top: -16.5px;
+    margin-bottom: -15px;
+}
+
+
+/* ------------------------------------*/
+
+.elemento-absoluto2 {
+    display: none;
+    padding: 10px;
+    width: 100%;
+    gap: 10px;
+}
+
+
+.guia-avatar-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.saape-avatar-happy {
+    width: 30%;
+}
+
+/* !TODO: CAMBIAR "bg-navbar" posible delete  */
+/* !TODO: CAMBIAR "bg-text"   agrandar letras */
+.navbar2-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+/* -----Estilos pagina Informacion.html ----- */
+
+.pmapasdiv1 img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* ------------------------------------------ */
+
+.contacto-form-container {
+    width: 75%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*--------------Mapas.html--------------------*/
+
+.brightness {
+    cursor: pointer;
+}
+
+.brightness img:hover {
+    opacity: .5;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    box-shadow: -1px 1px 5px 0px rgba(46, 46, 46, 0.75);
+    transform: scale(1.05);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* .carousel-inner {
+    transform: rotate(45deg);
+    transform-origin: 50% 50%;
+  }
+
+.carousel-item{
+    transform: translate(-50%, -50%) skew(-45deg);
+} */
+
+/* Estilos para smartphone pequeño */
+@media screen and (max-width: 320px) {
+
+    /*------Estilos Index.html ----- */
+
+    .video-container {
+        transition: width 0.7s ease;
+        width: 92%;
+    }
+
+    .saape-avatar {
+        transition: width 0.7s ease;
+        width: 30%;
+        height: auto;
+        margin-right: 2vh;
+    }
+
+    .image-container {
+        transition: width 1s ease-in;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn-3 {
+        font-size: 15px;
+    }
+
+    .image-container img {
+        width: 50%;
+    }
+
+    /*------------------------------------ */
+
+    /*---------Preloader portada.html ----- */
+
+    .anim-saape-logo {
+        width: 40%;
+        height: auto;
+    }
+
+    .preloader-text {
+        padding-inline: 5%;
+        font-size: 15px;
+    }
+
+    .pp-image-container {
+        display: none;
+    }
+
+    .gipedu {
+        width: 230px;
+        font-size: 15px;
+    }
+
+    .rdis {
+        width: 230px;
+        font-size: 15px;
+    }
+
+    /*---------Fin portada.html ----- */
+
+    /* ----------------------- */
+    .container-saape-logo {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .container-saape-logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .saape-banner {
+        display: none;
+    }
+
+    .saape-text {
+        font-size: 20px;
+    }
+
+    .control-grupos-saape {
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+    .control-gipedu {
+        display: none;
+    }
+
+    .control-rdis {
+        display: none;
+    }
+
+    .control-pucp img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .pucp2 {
+        display: none;
+    }
+
+
+    .elemento-absoluto2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .elemento-absoluto {
+        display: none;
+    }
+
+    .elemento-absoluto2 .parrafo-2 {
+        color: #fff;
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        text-align: center;
+        font-size: 13px;
+        margin: 0px;
+    }
+
+    .btn-1 {
+        color: #1784A9;
+        background-color: #fff;
+        font-size: 17px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .toggle-navbar-1 {
+        display: block;
+    }
+
+    .toggle-navbar-2 {
+        display: none;
+    }
+
+    .hexagon-banner {
+        display: none;
+    }
+
+    /* Estilos de Informacion.html */
+
+    .pmapasdiv1 {
+        width: initial;
+    }
+
+    .contenedorpmapas {
+        transition: width 0.7s ease;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .imagen-flotante {
+        width: 25%;
+    }
+
+    /*------------------------------*/
+
+    .pmapasdiv1-2 {
+        width: 95%;
+    }
+
+    .pmapasdiv1-2 img{
+       width: 280px;
+       height: 244px;
+    }
+
+}
+
+/* Estilos para smartphone medio */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+
+    /*------------ Estilos Index.html ------ */
+    .video-container {
+        transition: width 0.7s ease;
+        width: 92%;
+    }
+
+    .ingreso-container {
+        padding-bottom: 15px;
+    }
+
+    .saape-avatar {
+        transition: width 1s ease;
+        width: 30%;
+        height: auto;
+        margin-right: 5vh;
+    }
+
+    .btn-3 {
+        font-size: 16px;
+    }
+
+    .image-container {
+        transition: width 0.7s ease-in;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: sta;
+        gap: 15px;
+    }
+
+    .image-container img {
+        width: 90%;
+    }
+
+    /* ----------------------------------- */
+
+    /*---------Preloader portada.html ----- */
+
+    .anim-saape-logo {
+        width: 40%;
+        height: auto;
+    }
+
+    .preloader-text {
+        padding-inline: 5%;
+        font-size: 17px;
+    }
+
+    .pp-image-container {
+        display: none;
+    }
+
+    .gipedu {
+        width: 230px;
+        font-size: 15px;
+    }
+
+    .rdis {
+        width: 230px;
+        font-size: 15px;
+    }
+
+    /*--------- FIN Preloader portada.html ----- */
+
+    /*--------- INICIO Content portada.html ----- */
+
+    /*----------- Primer Header --------- */
+    .container-saape-logo {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .container-saape-logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .saape-text {
+        font-size: 20px;
+    }
+
+    .saape-banner {
+        display: none;
+    }
+
+    .pc-image-container {
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .control-grupos-saape {
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+    .control-gipedu {
+        display: none;
+    }
+
+    .control-rdis {
+        display: none;
+    }
+
+    .control-pucp img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .pucp2 {
+        font-size: 15px;
+        width: 55px;
+    }
+
+    /*-------- FIN  Primer Header ------- */
+
+    .elemento-absoluto2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .elemento-absoluto2 .parrafo-2 {
+        color: #fff;
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        text-align: center;
+        font-size: 16px;
+
+    }
+
+    .btn-1 {
+        color: #1784A9;
+        background-color: #fff;
+        font-size: 17px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    /* TODO: Incrementar de Tamaño el Carrusel */
+
+    .elemento-absoluto {
+        display: none;
+    }
+
+    .toggle-navbar-1 {
+        display: block;
+    }
+
+    .toggle-navbar-2 {
+        display: none;
+    }
+
+    .hexagon-banner {
+        transition: width 0.7s ease;
+        display: none;
+    }
+
+    /* ----------------------------------- */
+
+    /* --- mapas.html */
+
+    .pmapasdiv1 {
+        width: initial;
+    }
+
+    .contenedorpmapas {
+        transition: width 0.7s ease;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .imagen-flotante {
+        display: none;
+    }
+
+    /*-----------------*/
+
+    .pmapasdiv1-2 {
+        width: 100%;
+    }
+
+    .pmapasdiv1-2 img{
+       width: 280px;
+       height: 244px;
+    }
+
+}
+
+/* Estilos para smartphone grande */
+@media screen and (min-width: 376px) and (max-width: 425px) {
+
+    .video-container {
+        transition: width 0.7s ease;
+        width: 92%;
+    }
+
+    .saape-avatar {
+        transition: width 0.7s ease;
+        width: 30%;
+        height: auto;
+        margin-right: 5vh;
+    }
+
+    .ingreso-container {
+        padding-bottom: 15px;
+    }
+
+    .image-container {
+        transition: width 1s ease-in;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .image-container img {
+        width: 90%;
+    }
+
+    .btn-3 {
+        font-size: 16px;
+    }
+
+    /* --------------------------------------------- */
+
+    .anim-saape-logo {
+        width: 40%;
+        height: auto;
+    }
+
+    .preloader-text {
+        padding-inline: 5%;
+        font-size: 18px;
+    }
+
+    .pp-image-container {
+        display: none;
+    }
+
+    .gipedu {
+        width: 230px;
+        font-size: 15px;
+    }
+
+    .rdis {
+        width: 230px;
+        font-size: 15px;
+    }
+
+    /* --------------------------------------------- */
+
+    .pc-image-container {
+        padding: 10px;
+    }
+
+    .container-saape-logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .saape-text {
+        font-size: 13px;
+    }
+
+    .saape-banner {
+        width: 200px;
+        font-size: 10px;
+    }
+
+    .control-grupos-saape {
+        margin: 0px;
+        justify-items: end;
+    }
+
+    .control-gipedu {
+        display: none;
+    }
+
+    .control-rdis {
+        display: none;
+    }
+
+    .control-pucp img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .pucp2 {
+        font-size: 20px;
+        width: 60px;
+    }
+
+    /*----------------------------------------------*/
+
+    .elemento-absoluto {
+        display: none;
+    }
+
+    .elemento-absoluto2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .saape-avatar-happy {
+        width: 35%;
+    }
+
+    .elemento-absoluto2 .parrafo-2 {
+        color: #fff;
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        text-align: center;
+        font-size: 16px;
+        margin: 0px;
+    }
+
+    .btn-1 {
+        color: #1784A9;
+        background-color: #fff;
+        font-size: 17px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    /*----------------------------------------------*/
+
+    .toggle-navbar-1 {
+        display: none;
+    }
+
+    .toggle-navbar-2 {
+        display: block;
+    }
+
+    /*----------------------------------------------*/
+
+    .hexagon-banner {
+        transition: width 0.7s ease;
+        display: none;
+    }
+
+    .carousel-inner img {
+        height: 500px;
+    }
+
+    /* --- mapas.html */
+
+    .pmapasdiv1 {
+        width: initial;
+    }
+
+    .contenedorpmapas {
+        transition: width 0.7s ease;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .imagen-flotante {
+        display: none;
+    }
+
+    /*-----------------*/
+
+    .pmapasdiv1-2 {
+        width: 95%;
+    }
+
+    .pmapasdiv1-2 img{
+       width: 340px;
+       height: 260px;
+    }
+
+}
+
+/* Estilos para Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+    /*----------------------*/
+    .video-container {
+        transition: width 0.7s ease;
+        width: 75%;
+    }
+
+    .saape-avatar {
+        transition: width 0.7s ease;
+        width: 25%;
+        height: auto;
+        margin-right: 10vh;
+    }
+
+    .ingreso-container {
+        padding-bottom: 20px;
+    }
+
+    .image-container {
+        transition: width 1s ease-in;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .image-container img {
+        width: 90%;
+    }
+
+    .btn-3 {
+        font-size: 18px;
+    }
+
+    /* --------------------------------------------- */
+
+    .anim-saape-logo {
+        width: 20%;
+        height: auto;
+    }
+
+    .preloader-text {
+        padding-inline: 15%;
+        font-size: 20px;
+    }
+
+    .pp-image-container {
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        bottom: 10px;
+    }
+
+    @media screen and (max-width: 751px) {
+        .control-gipedu {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 571px) {
+        .control-rdis {
+            display: none;
+        }
+    }
+
+    .gipedu {
+        width: 230px;
+        font-size: 15px;
+    }
+
+    .rdis {
+        width: 230px;
+        font-size: 15px;
+    }
+
+    /* --------------------------------------------- */
+
+    .pc-image-container {
+        padding: 10px;
+    }
+
+    .container-saape-logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .saape-text {
+        font-size: 13px;
+    }
+
+    .saape-banner {
+        width: 200px;
+        font-size: 10px;
+    }
+
+    .control-grupos-saape {
+        margin-top: 0px;
+        padding: 10px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .control-gipedu img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .control-gipedu .gipedu {
+        width: 130px;
+        font-size: 8px;
+    }
+
+    .control-rdis img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .control-rdis .rdis {
+        width: 120px;
+        font-size: 8px;
+    }
+
+    .control-pucp img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .pucp2 {
+        font-size: 20px;
+        width: 60px;
+    }
+
+    /*----------------------------------------------*/
+
+    .elemento-absoluto {
+        top: 20%;
+        width: 400px;
+    }
+
+    .elemento-absoluto2 {
+        display: none;
+    }
+
+    .saape-avatar-happy {
+        width: 40%;
+        padding-bottom: 10px;
+    }
+
+    .elemento-absoluto2 .parrafo-2 {
+        width: 260px;
+    }
+
+    .btn-1 {
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+
+    /*----------------------------------------------*/
+
+    .toggle-navbar-1 {
+        display: none;
+    }
+
+    .toggle-navbar-2 {
+        display: block;
+    }
+
+    /*----------------------------------------------*/
+
+    .hexagon-banner {
+        transition: width 0.7s ease;
+        display: none;
+    }
+
+    .carousel-inner img {
+        height: 500px;
+    }
+
+    /* --- mapas.html */
+
+    .pmapasdiv1 {
+        width: 75%;
+    }
+
+    .contenedorpmapas {
+        transition: width 0.7s ease;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .imagen-flotante {
+        display: none;
+    }
+
+    /*-----------------*/
+
+    .pmapasdiv1-2 {
+        width: 95%;
+    }
+
+    .pmapasdiv1-2 img{
+       width: 550px;
+       height: 440px;
+    }
+
+    @media screen and (max-width: 624px) {
+        .pmapasdiv1-2 img{
+            width: 450px;
+            height: 370px;
+         }
+    }
+
+    @media screen and (max-width: 482px) {
+        .pmapasdiv1-2 img{
+            width: 340px;
+            height: 250px;
+         }
+    }
+
+}
+
+/* Estilos para Laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /*----------------------*/
+    .video-container {
+        transition: width 0.7s ease;
+        width: 65%;
+    }
+
+    .saape-avatar {
+        transition: width 0.7s ease;
+        width: 15%;
+        height: auto;
+        margin-right: 10vh;
+    }
+
+    .ingreso-container {
+        padding-bottom: 20px;
+    }
+
+    .image-container {
+        transition: width 1s ease-in;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .image-container img {
+        width: 90%;
+    }
+
+    .btn-3 {
+        font-size: 18px;
+    }
+
+    /* --------------------------------------------- */
+
+    .anim-saape-logo {
+        width: 25%;
+        height: auto;
+    }
+
+    .preloader-text {
+        padding-inline: 15%;
+        font-size: 20px;
+    }
+
+    .pp-image-container {
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        bottom: 10px;
+    }
+
+    .gipedu {
+        width: 230px;
+        font-size: 15px;
+    }
+
+    .rdis {
+        width: 230px;
+        font-size: 15px;
+    }
+
+    /* --------------------------------------------- */
+
+    .pc-image-container {
+        padding: 10px;
+    }
+
+    .container-saape-logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .saape-text {
+        font-size: 13px;
+    }
+
+    .saape-banner {
+        width: 200px;
+        font-size: 10px;
+    }
+
+    .control-grupos-saape {
+        width: 100%;
+        margin-top: 0px;
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: end;
+        justify-items: center;
+    }
+
+    .control-gipedu img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .control-gipedu .gipedu {
+        width: 130px;
+        font-size: 8px;
+    }
+
+    .control-rdis img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .control-rdis .rdis {
+        width: 120px;
+        font-size: 8px;
+    }
+
+    .control-pucp img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .pucp2 {
+        font-size: 20px;
+        width: 60px;
+    }
+
+    /*----------------------------------------------*/
+
+    .elemento-absoluto {
+        top: 20%;
+        width: 400px;
+    }
+
+    .elemento-absoluto2 {
+        display: none;
+    }
+
+    .saape-avatar-happy {
+        width: 40%;
+        padding-bottom: 10px;
+    }
+
+    .elemento-absoluto2 .parrafo-2 {
+        width: 260px;
+    }
+
+    .btn-1 {
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+
+    /*----------------------------------------------*/
+
+    .toggle-navbar-1 {
+        display: none;
+    }
+
+    .toggle-navbar-2 {
+        display: block;
+    }
+
+    /*----------------------------------------------*/
+
+    .hexagon-banner {
+        transition: width 0.7s ease;
+        display: block;
+    }
+
+    .carousel-inner img {
+        height: 500px;
+    }
+
+    /*-------------------------------------------------*/
+
+    .pmapasdiv1 {
+        width: calc(100% * (1/2) - 50px - 1px);
+    }
+
+    .pmapasdiv1-2 {
+        width: 75%;
+    }
+
+    .pmapasdiv1-2 img{
+        width: 600px;
+        height: 460px;
+    }
+
+}
+
+/* Estilos para Laptop Grande */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+
+    /*----------------------*/
+    .video-container {
+        transition: width 0.7s ease;
+        width: 55%;
+    }
+
+    .saape-avatar {
+        transition: width 0.7s ease;
+        width: 10%;
+        height: auto;
+        margin-right: 10vh;
+    }
+
+    .ingreso-container {
+        padding-bottom: 20px;
+    }
+
+    .image-container {
+        transition: width 1s ease-in;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .image-container img {
+        width: 90%;
+    }
+
+    .btn-3 {
+        font-size: 18px;
+    }
+
+    /* --------------------------------------------- */
+
+    .anim-saape-logo {
+        width: 10%;
+        height: auto;
+    }
+
+    .preloader-text {
+        padding-inline: 25%;
+        font-size: 20px;
+    }
+
+    .pp-image-container {
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        bottom: 10px;
+    }
+
+    .gipedu {
+        width: 230px;
+        font-size: 15px;
+    }
+
+    .rdis {
+        width: 230px;
+        font-size: 15px;
+    }
+
+    /* --------------------------------------------- */
+
+    .pc-image-container {
+        padding: 10px;
+    }
+
+    .container-saape-logo img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .saape-text {
+        font-size: 15px;
+    }
+
+    .saape-banner {
+        width: 380px;
+        font-size: 13px;
+    }
+
+    .control-grupos-saape {
+        width: 100%;
+        margin-top: 0px;
+        padding: 10px;
+        justify-content: end;
+        justify-items: center;
+    }
+
+    .control-gipedu img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .control-gipedu .gipedu {
+        width: 155px;
+        font-size: 10px;
+    }
+
+    .control-rdis img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .control-rdis .rdis {
+        width: 155px;
+        font-size: 10px;
+    }
+
+    .control-pucp img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .pucp2 {
+        font-size: 23px;
+        width: 75px;
+    }
+
+    /*----------------------------------------------*/
+
+    .elemento-absoluto {
+        top: 20%;
+        width: 400px;
+    }
+
+    .elemento-absoluto2 {
+        display: none;
+    }
+
+    .saape-avatar-happy {
+        width: 40%;
+        padding-bottom: 10px;
+    }
+
+    .elemento-absoluto2 .parrafo-2 {
+        width: 260px;
+    }
+
+    .btn-1 {
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+
+    /*----------------------------------------------*/
+
+    .toggle-navbar-1 {
+        display: none;
+    }
+
+    .toggle-navbar-2 {
+        display: block;
+    }
+
+    /*----------------------------------------------*/
+
+    .hexagon-banner {
+        transition: width 0.7s ease;
+        display: block;
+    }
+
+    .carousel-inner img {
+        height: 500px;
+    }
+
+    /*--------------------------*/
+
+    .pmapasdiv1 {
+        width: calc(100% * (1/3) - 50px - 1px);
+    }
+
+    .pmapasdiv1-2 {
+        width: calc(100% * (1/2) - 50px - 1px);
+    }
+}
+
+/* ---------- Animaciones ----------- */
+@keyframes bubbling {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

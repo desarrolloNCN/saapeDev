@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAAPE :: Sistema de Abastecimiento de Agua Para Emergencia</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Loader screen -->
+    <script type="module" crossorigin src="assets/portada-af9de9f4.js"></script>
+    <!-- ------------ -->
+    <link href="js/bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <style>
+        body {
+            background-color: #d7edfa;
+        }
+
+        .card {
+            width: 600px !important;
+            border: none;
+            overflow: hidden;
+            transition: transform 0.3s;
+            padding: 15px;
+            ;
+        }
+
+        .row {
+            width: 600px !important;
+            margin-left: auto;
+            margin-right: auto;
+            width: (600, 50%);
+
+
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-img-top {
+            transition: opacity 0.3s;
+        }
+
+        .card:hover .card-img-top {
+            opacity: 0.7;
+        }
+
+        .card-title {
+            color: #007BFF;
+        }
+
+        .btn-primary {
+            background-color: #007BFF;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+    </style>
+
+    <!-- <script type="module" crossorigin src="http://www.eseotech.com/assets/modulepreload-polyfill-3cfb730f.js"></script>
+    <script type="module" crossorigin src="http://www.eseotech.com/assets/geovisor-29bcebc4.js"></script> -->
+</head>
+
+<body style="background: #D5EDF9">
+
+
+    <div class="preloader-2">
+        <div class="container-preloader-2" style="background: #1784A9">
+
+            <img class="anim-saape-logo" src="assets/img/rotating-logo.webp">
+
+            <p class="pp-saape-text">SAAPE</p>
+
+            <p class="text-center preloader-text"> GUÍA PARA EL DISEÑO DEL SISTEMA DE ABASTECIMIENTO DE
+                AGUA PARA EMERGENCIA PARA LA METROPOLI DE LIMA Y CALLAO
+            </p>
+
+            <div class="pp-image-container">
+
+                <div>
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+
+                        <img src="assets/logo-pucp.png">
+
+                        <div>
+                            <div class="linea"></div>
+
+                            <h4 class="gipedu">Grupo Interdisciplinario Participación e Innovación en el Desarrollo
+                                Urbano
+                            </h4>
+
+                        </div>
+                    </div>
+
+                    <div class="separetor"></div>
+                </div>
+
+                <div>
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+                        <img src="assets/logo-pucp.png">
+                        <div>
+                            <div class="linea"></div>
+
+                            <h4 class="rdis">Grupo de Gestión de Riesgos de Desastres en Infraestructura Social y
+                                Vivienda de Bajo Costo
+                            </h4>
+
+                        </div>
+                    </div>
+                    <div class="separetor"></div>
+                </div>
+
+                <div>
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+                        <img src="assets/logo-pucp.png">
+                        <div>
+
+                            <p class="pucp">PUCP</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="pc-image-container" style="background-color: #1784A9;">
+
+            <a href="portada.html" style="text-decoration: none;">
+                <div class="control-saape-banner">
+                    <div class="container-sf-saape">
+                        <div class="container-saape-logo">
+                            <img src="assets/img/saape-logo.png">
+                            <h3 class="saape-text"> <strong>SAAPE</strong> </h3>
+                        </div>
+                        <div>
+                            <h4 class="saape-banner">
+                                GUÍA PARA EL DISEÑO DEL <br> <strong> SISTEMA DE ABASTECIMIENTO DE AGUA PARA DE
+                                    EMERGENCIA
+                                </strong> (SAAPE) <br> PARA LA METROPÓLI DE LIMA Y CALLAO
+                            </h4>
+                        </div>
+                    </div>
+
+                </div>
+            </a>
+
+            <div class="control-grupos-saape">
+                <div class="control-gipedu">
+                    <div style="display: flex; align-items: center;">
+                        <img src="assets/logo-pucp.png">
+                        <div>
+                            <div class="linea"></div>
+                            <h4 class="gipedu">Grupo Interdisciplinario <br> Participación e
+                                Innovación en el Desarrollo Urbano
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="control-rdis">
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+                        <img src="assets/logo-pucp.png">
+                        <div>
+                            <div class="linea"></div>
+                            <h4 class="rdis">Grupo de Gestión de Riesgos <br> de Desastres en
+                                Infraestructura Social y Vivienda
+                                de Bajo Costo
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="control-pucp">
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+                        <img src="assets/logo-pucp.png">
+                        <div>
+                            <p class="pucp2">PUCP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hexagon-banner">
+            <img src="assets/header2.svg" class="header-2">
+        </div>
+
+        <nav class="navbar sticky-top navbar-expand-sm bg-navbar toggle-navbar-1" data-bs-theme="dark">
+            <div class="container-fluid">
+
+                <a class="navbar-brand navbar-text d-flex align-items-center" style="gap: 7px;" href="https://saape.ncn.pe/geovisor/">
+                    <img height="30" width="30" src="assets/img/menu-geovisor.svg">
+                    <b>VISOR GIS</b>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="navbar-brand navbar-text d-flex align-items-center" style="gap: 7px;"
+                                href="mapas.html">
+                                <img height="35" width="35" src="assets/img/menu-planos.svg">
+                                <b>MAPAS</b>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand navbar-text d-flex align-items-center" style="gap: 7px;"
+                                href="informacion.html">
+                                <img height="30" width="30" src="assets/img/m-informacion.svg">
+                                <b>INFORMACIÓN</b>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand navbar-text d-flex align-items-center" style="gap: 7px;"
+                                href="contacto.html">
+                                <img height="30" width="30" src="assets/img/menu-contacto.svg">
+                                <b>CONTACTO</b>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar sticky-top bg-navbar toggle-navbar-2">
+            <div class="container-fluid d-flex justify-content-around">
+                <a class="navbar-brand navbar-text" href="https://saape.ncn.pe/geovisor/">
+                    <img height="30" src="assets/img/menu-geovisor.svg"><b>VISOR GIS</b> </a>
+                <a class="navbar-brand navbar-text" href="mapas.html">
+                    <img height="30" src="assets/img/menu-planos.svg"><b>MAPAS</b> </a>
+                <a class="navbar-brand navbar-text" href="informacion.html">
+                    <img height="30" src="assets/img/m-informacion.svg"> <b>INFORMACI&Oacute;N</b> </a>
+                <a class="navbar-brand navbar-text" href="contacto.html">
+                    <img height="30" src="assets/img/menu-contacto.svg"> <b>CONTACTO</b> </a>
+            </div>
+        </nav>
+
+        <center style="padding: 10px;">
+            <div class="text-wrapper">INFO</div>
+            <p class="div">
+                Información sobre el proyecto de investigación con impacto social SAAPE -PUCP y cómo se elaboró
+                esta guía
+            </p>
+        </center>
+
+        <!-- <div class="contenedorpmapas">
+    
+            <div class="pmapasdiv1-2">
+                <div class="mapimgcontent-2">
+                    <img src="assets/img/info1.png" alt="">                
+                    
+                    <div class="detailsmaps">
+                        <div class="titlemaps"><b>Infografía del Proyecto SAAPE</b></div>
+                        <div class="txtdetailsmaps">
+                            <table style="border-collapse: collapse;">
+                                <thead>
+                                    <tr>
+                                        <th style="border: none;"></th>
+                                        <th style="border: none;"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="border: none;">1. ¿Qué es el SAAPE?</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">2. Etapas del proyecto de investigación SAAPE</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">3. Consideraciones del diseño del SAAPE</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">4. Punto de abastecimiento en espacios públicos</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">5. Caracterización de la unidad espacial SAAPE</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">6. Criterios de diseño SAAPE</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+    
+                    </div>
+                </div>
+    
+            </div>
+            <div class="pmapasdiv1-2">
+                <div class="mapimgcontent-2">
+                    <img src="assets/img/info2.png" alt="">                
+                    
+                    <div class="detailsmaps">
+                        <div class="titlemaps"><b>Barrio PUCP, ejemplos de aplicación</b></div>
+                        <div class="txtdetailsmaps">
+                            <table style="border-collapse: collapse;">
+                                <thead>
+                                    <tr>
+                                        <th style="border: none;"></th>
+                                        <th style="border: none;"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="border: none;">Zona de Pando 9, Parque Carlos Lisson</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">Zona de Pando 9</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">Zona de Pando 8</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">Zona de Pando 7</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">Zona de Pando 9</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">Zona de Pando 9</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="pmapasdiv1-2">
+                <div class="mapimgcontent-2">
+                    <img src="assets/img/info3.png" alt="">
+                   
+                    <div class="detailsmaps">
+                        <div class="titlemaps"><b>Documentos del proyecto</b> </div>
+                        <div class="txtdetailsmaps">
+                            <table style="border-collapse: collapse;">
+                                <thead>
+                                    <tr>
+                                        <th style="border: none;"></th>
+                                        <th style="border: none;"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="border: none;">Video taller de presentación del SAAPE</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">Fotos del taller de presentación del SAAPE</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">Encuesta de percepción del riesgo en Lima Cómo Vamos
+                                        </td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div> -->
+
+        <div class="contenedorpmapas">
+
+            <div class="pmapasdiv1-2">
+                <div class="mapimgcontent-2 ">
+                    <!-- <div class="zoom">
+                        <img src="assets/img/info1.png" alt="">
+                    </div> -->
+
+                    <div>
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/info1.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/info1.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/info1.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="detailsmaps">
+                        <div class="titlemaps"><b>Infografía del Proyecto SAAPE</b></div>
+                        <div class="txtdetailsmaps">
+                            <table style="border-collapse: collapse;">
+                                <thead>
+                                    <tr>
+                                        <th style="border: none;"></th>
+                                        <th style="border: none;"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="border: none;">1. ¿Qué es el SAAPE?</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">2. Etapas del proyecto de investigación SAAPE</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">3. Consideraciones del diseño del SAAPE</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">4. Punto de abastecimiento en espacios públicos</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">5. Caracterización de la unidad espacial SAAPE</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">6. Criterios de diseño SAAPE</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="pmapasdiv1-2">
+                <div class="mapimgcontent-2 ">
+                    <!-- <div class="zoom">
+                        <img src="assets/img/info2.png" alt="">
+                    </div> -->
+
+                    <div>
+                        <div id="carouselExampleIndicators2" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/info1.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/info1.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/info1.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="detailsmaps">
+                        <div class="titlemaps"><b>Barrio PUCP, ejemplos de aplicación</b></div>
+                        <div class="txtdetailsmaps">
+                            <table style="border-collapse: collapse;">
+                                <thead>
+                                    <tr>
+                                        <th style="border: none;"></th>
+                                        <th style="border: none;"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="border: none;">Zona de Pando 9, Parque Carlos Lisson</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">Zona de Pando 9</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">Zona de Pando 8</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">Zona de Pando 7</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">Zona de Pando 9</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">Zona de Pando 9</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="pmapasdiv1-2">
+                <div class="mapimgcontent-2 ">
+                    <!-- <div class="zoom">
+                        <img src="assets/img/info3.png" alt="">
+                    </div> -->
+
+                    <div>
+                        <div id="carouselExampleIndicators3" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/info1.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/info1.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/info1.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="detailsmaps">
+                        <div class="titlemaps"><b>Documentos del proyecto</b> </div>
+                        <div class="txtdetailsmaps">
+                            <table style="border-collapse: collapse;">
+                                <thead>
+                                    <tr>
+                                        <th style="border: none;"></th>
+                                        <th style="border: none;"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="border: none;">Video taller de presentación del SAAPE</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">Fotos del taller de presentación del SAAPE</td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: none;">Encuesta de percepción del riesgo en Lima Cómo Vamos
+                                        </td>
+                                        <td style="border: none;"><a href="informacion.html#">[Ver]</a></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img class="imagen-flotante" src="assets/img/saape6.svg" />
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- optionally define the sidebar content via HTML markup -->
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+
+    <!-- <link rel="stylesheet" href="libs/L.switchBasemap.css" />
+    <script src="libs/L.switchBasemap.js"></script> -->
+
+    <link rel="stylesheet" href="https://domoritz.github.io/leaflet-locatecontrol/dist/L.Control.Locate.min.css" />
+    <script src="https://domoritz.github.io/leaflet-locatecontrol/src/L.Control.Locate.js"></script>
+
+    <link rel="stylesheet" href="https://noerw.github.io/leaflet-sidebar-v2/css/leaflet-sidebar.css" />
+    <script src="https://noerw.github.io/leaflet-sidebar-v2/js/leaflet-sidebar.js"></script>
+
+    <!-- Archivos del plugin leaflet.fullscreen -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.6.0/Control.FullScreen.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.6.0/Control.FullScreen.js"></script>
+
+    <!-- Archivos del plugin leaflet-search -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-search@2.9.7/dist/leaflet-search.min.css" />
+    <script src="https://unpkg.com/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+
+    <script src="js/bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="js/jquery/jquery.js"></script>
+    <script src="js/lib/esri-leaflet-vector.js"></script>
+    <script src="js/lib/esri-leaflet.js"></script>
+
+    <!-- <link rel="stylesheet" href="http://www.eseotech.com/libs/geocoder/BingGeocoder.css" />
+    <script src="http://www.eseotech.com/libs/geocoder/BingGeocoder.js"></script> -->
+
+
+
+</body>
+
+</html>
