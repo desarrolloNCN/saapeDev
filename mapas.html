@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAAPE :: Sistema de Abastecimiento de Agua Para Emergencia</title>
+
+    <link href="js/bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <!-- Loader screen -->
     <script type="module" crossorigin src="assets/portada-af9de9f4.js"></script>
     <!-- ------------ -->
-    <link href="js/bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
     <link rel="stylesheet" href="css/styles.css" />
 
     <style>
@@ -200,13 +200,14 @@
         </div>
 
         <div class="hexagon-banner">
-            <img src="assets/header2.svg" class="header-2">
+            <img src="assets/header2.png" class="header-2">
         </div>
 
         <nav class="navbar sticky-top navbar-expand-sm bg-navbar toggle-navbar-1" data-bs-theme="dark">
             <div class="container-fluid">
 
-                <a class="navbar-brand navbar-text d-flex align-items-center" style="gap: 7px;" href="https://saape.ncn.pe/geovisor/">
+                <a class="navbar-brand navbar-text d-flex align-items-center" style="gap: 7px;"
+                    href="https://saape.ncn.pe/geovisor/">
                     <img height="30" width="30" src="assets/img/menu-geovisor.svg">
                     <b>VISOR GIS</b>
                 </a>
@@ -277,7 +278,7 @@
 
             <div class="pmapasdiv1">
                 <div class="mapimgcontent ">
-                    <div class="zoom" >
+                    <div class="zoom">
                         <img src="assets/img/m1.jpg" data-bs-toggle="modal" data-bs-target="#staticBackdrop" alt="">
                     </div>
                     <!-- <div class="imgmap">
@@ -291,11 +292,11 @@
                             reservorios existentes de SEDAPAL próximos a un radio de 500 metros.</div>
                         <div class="dowlonadmaps">
                             <a href="mapas.html">
-                                <b>[Descargar PDF]</b> 
+                                <b>[Descargar PDF]</b>
                             </a>
 
                             <a href="mapas.html">
-                               <b>[Descargar JPG]</b>  
+                                <b>[Descargar JPG]</b>
                             </a>
                         </div>
                     </div>
@@ -303,7 +304,7 @@
             </div>
             <div class="pmapasdiv1">
                 <div class="mapimgcontent ">
-                    <div class="zoom" >
+                    <div class="zoom">
                         <img src="assets/img/m2.jpg" data-bs-toggle="modal" data-bs-target="#staticBackdrop2" alt="">
                     </div>
                     <!-- <div class="imgmap">
@@ -327,7 +328,7 @@
             </div>
             <div class="pmapasdiv1">
                 <div class="mapimgcontent ">
-                    <div class="zoom" >
+                    <div class="zoom">
                         <img src="assets/img/m3.jpg" data-bs-toggle="modal" data-bs-target="#staticBackdrop3" alt="">
                     </div>
                     <!-- <div class="imgmap">
@@ -352,7 +353,7 @@
             </div>
             <div class="pmapasdiv1">
                 <div class="mapimgcontent ">
-                    <div class="zoom" >
+                    <div class="zoom">
                         <img src="assets/img/m4.jpg" data-bs-toggle="modal" data-bs-target="#staticBackdrop4" alt="">
                     </div>
                     <!-- <div class="imgmap">
@@ -387,10 +388,15 @@
                         <div class="modal-header">
                             <h1 class="modal-title fs-5" id="staticBackdropLabel">Área atendida por reservorios de
                                 emergencia</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <a data-bs-dismiss="modal" aria-label="Close">
+                                <button type="button" class="round-button"  style="border-radius: 50%; padding: 5px;" >
+                                    X
+                                </button>
+                            </a>
                         </div>
                         <div class="modal-body">
-                            <img width="100%" height="100%" src="/assets/img/mapas_hd/resized/mapa_area_no_atendida.jpg">
+                            <img width="100%" height="100%"
+                                src="/assets/img/mapas_hd/resized/mapa_area_no_atendida.jpg">
                         </div>
 
                     </div>
@@ -404,7 +410,11 @@
                         <div class="modal-header">
                             <h1 class="modal-title fs-5" id="staticBackdropLabel">Espacios públicos óptimos para el
                                 SAAPE</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <a data-bs-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="round-button"  style="border-radius: 50%; padding: 5px;" >
+                                        X
+                                    </button>
+                                </a>
                         </div>
                         <div class="modal-body">
                             <img width="100%" height="100%"
@@ -422,7 +432,11 @@
                         <div class="modal-header">
                             <h1 class="modal-title fs-5" id="staticBackdropLabel">Estratos socioeconómicos en la
                                 metrópoli</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <a data-bs-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="round-button"  style="border-radius: 50%; padding: 5px;" >
+                                        X
+                                    </button>
+                                </a>
                         </div>
                         <div class="modal-body">
                             <img width="100%" height="100%" src="assets/img/mapas_hd/resized/mapa_socioeconomico.jpg">
@@ -439,7 +453,11 @@
                         <div class="modal-header">
                             <h1 class="modal-title fs-5" id="staticBackdropLabel">Nivel de daños por sismo de 8.8 Mw
                             </h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <a data-bs-dismiss="modal" aria-label="Close">
+                                <button type="button" class="round-button"  style="border-radius: 50%; padding: 5px;" >
+                                    X
+                                </button>
+                            </a>
                         </div>
                         <div class="modal-body">
                             <img width="100%" height="100%" src="assets/img/mapas_hd/resized/mapa_nivel_de_daño.jpg">
@@ -451,7 +469,6 @@
         </div>
 
     </div>
-
 
     <!-- optionally define the sidebar content via HTML markup -->
 

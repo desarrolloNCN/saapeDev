@@ -14,6 +14,20 @@
     src: url('../assets/Source-Serif-Pro/SourceSerifPro-SemiBold.ttf') format('opentype');
 }
 
+@font-face {
+    font-family: "AvenirNextLTPro-Regular";
+    src: url('../assets/Avenir-Next-LT-Pro/AvenirNextLTProRegular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "TwCenMT";
+    src: url('../assets/Tw-Cen-MT/Tw-Cen-MT.ttf') format('opentype');
+}
+
+b, p, a, td{
+    font-family: "AvenirNextLTPro-Regular";
+}
+
 .header-1 {
     width: 100%;
 }
@@ -40,7 +54,7 @@
 
 .navbar-text {
     color: white;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 100;
@@ -50,7 +64,7 @@
 
 .navbar-text:hover {
     color: white;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -60,7 +74,7 @@
 
 .navbar-text:focus {
     color: white;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -71,7 +85,7 @@
 /* Preloader-1*/
 .preloader-text {
     color: white;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 100;
@@ -630,7 +644,7 @@
 }
 
 .pmapasdiv1-2 {
-    width: calc(100% * (1/3) - 50px - 1px);
+    width: calc(100% * (1/3) - 25px - 1px);
     background-color: transparent;
 }
 
@@ -791,6 +805,7 @@
 }
 
 .txtdetailsmaps {
+    font-family: "AvenirNextLTPro-Regular";
     /* padding: 0px 60px; */
     margin-bottom: 10px;
     color: #01849f;
@@ -1116,6 +1131,8 @@
 }
 
 .pp-saape-text {
+    transition: width 0.7s ease;
+    font-family: "TwCenMT";
     color: white;
     font-size: 26px;
     font-weight: bold;
@@ -1450,15 +1467,6 @@ iframe {
     /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-/* .carousel-inner {
-    transform: rotate(45deg);
-    transform-origin: 50% 50%;
-  }
-
-.carousel-item{
-    transform: translate(-50%, -50%) skew(-45deg);
-} */
-
 /* Estilos para smartphone pequeño */
 @media screen and (max-width: 320px) {
 
@@ -1623,9 +1631,9 @@ iframe {
         width: 95%;
     }
 
-    .pmapasdiv1-2 img{
-       width: 280px;
-       height: 244px;
+    .pmapasdiv1-2 img {
+        width: 280px;
+        height: 244px;
     }
 
 }
@@ -1813,9 +1821,9 @@ iframe {
         width: 100%;
     }
 
-    .pmapasdiv1-2 img{
-       width: 280px;
-       height: 244px;
+    .pmapasdiv1-2 img {
+        width: 280px;
+        height: 244px;
     }
 
 }
@@ -1999,9 +2007,9 @@ iframe {
         width: 95%;
     }
 
-    .pmapasdiv1-2 img{
-       width: 340px;
-       height: 260px;
+    .pmapasdiv1-2 img {
+        width: 340px;
+        height: 260px;
     }
 
 }
@@ -2190,14 +2198,14 @@ iframe {
 
     /* --- mapas.html */
 
-    .pmapasdiv1 {
-        width: 75%;
-    }
-
     .contenedorpmapas {
         transition: width 0.7s ease;
-        flex-direction: column;
+        flex-direction: row;
         align-content: center;
+    }
+
+    .pmapasdiv1 {
+        width: calc(100% * (1/2) - 50px - 1px);
     }
 
     .imagen-flotante {
@@ -2210,23 +2218,23 @@ iframe {
         width: 95%;
     }
 
-    .pmapasdiv1-2 img{
-       width: 550px;
-       height: 440px;
+    .pmapasdiv1-2 img {
+        width: 550px;
+        height: 440px;
     }
 
     @media screen and (max-width: 624px) {
-        .pmapasdiv1-2 img{
+        .pmapasdiv1-2 img {
             width: 450px;
             height: 370px;
-         }
+        }
     }
 
     @media screen and (max-width: 482px) {
-        .pmapasdiv1-2 img{
+        .pmapasdiv1-2 img {
             width: 340px;
             height: 250px;
-         }
+        }
     }
 
 }
@@ -2405,14 +2413,14 @@ iframe {
     /*-------------------------------------------------*/
 
     .pmapasdiv1 {
-        width: calc(100% * (1/2) - 50px - 1px);
+        width: calc(100% * (1/3) - 50px - 1px);
     }
 
     .pmapasdiv1-2 {
         width: 75%;
     }
 
-    .pmapasdiv1-2 img{
+    .pmapasdiv1-2 img {
         width: 600px;
         height: 460px;
     }
@@ -2593,11 +2601,15 @@ iframe {
     /*--------------------------*/
 
     .pmapasdiv1 {
-        width: calc(100% * (1/3) - 50px - 1px);
+        width: calc(100% * (1/4) - 50px - 1px);
     }
 
     .pmapasdiv1-2 {
-        width: calc(100% * (1/2) - 50px - 1px);
+        width: calc(100% * (1/3) - 50px - 1px);
+    }
+
+    .pmapasdiv1-2 img {
+        height: 30%;
     }
 }
 
