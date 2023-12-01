@@ -269,7 +269,7 @@
 
         <center style="padding: 10px; background-color: E6F7FF;">
             <div class="text-wrapper">MAPAS</div>
-            <p>Mapas temáticos para tomar decisiones ante la necesidad de agua en emergencia</p>
+            <p class="div">Mapas temáticos para tomar decisiones ante la necesidad de agua en emergencia</p>
 
         </center>
 
@@ -385,18 +385,68 @@
                 aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
+
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Área atendida por reservorios de
-                                emergencia</h1>
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
                             <a data-bs-dismiss="modal" aria-label="Close">
-                                <button type="button" class="round-button"  style="border-radius: 50%; padding: 5px;" >
+                                <button type="button" class="round-button" style="border-radius: 50%; padding: 5px;">
                                     X
                                 </button>
                             </a>
                         </div>
                         <div class="modal-body">
-                            <img width="100%" height="100%"
-                                src="/assets/img/mapas_hd/resized/mapa_area_no_atendida.jpg">
+
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                        aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="3" aria-label="Slide 3"></button>
+                                </div>
+
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img style="height: 100%;object-fit: cover;"
+                                            src="/assets/img/mapas_hd/resized/mapa_area_no_atendida.jpg"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img style=" height: 100%; object-fit: cover;"
+                                            src="/assets/img/mapas_hd/resized/mapa_espacios_publicos_optimos.jpg"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img style=" height: 100%; object-fit: cover;"
+                                            src="/assets/img/mapas_hd/resized/mapa_socioeconomico.jpg"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img style="height: 100%; object-fit: cover;"
+                                            src="/assets/img/mapas_hd/resized/mapa_nivel_de_daño.jpg"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+
+                                </div>
+
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon bg-bluedark" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon bg-bluedark" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+
+                            </div>
+
                         </div>
 
                     </div>
@@ -410,11 +460,11 @@
                         <div class="modal-header">
                             <h1 class="modal-title fs-5" id="staticBackdropLabel">Espacios públicos óptimos para el
                                 SAAPE</h1>
-                                <a data-bs-dismiss="modal" aria-label="Close">
-                                    <button type="button" class="round-button"  style="border-radius: 50%; padding: 5px;" >
-                                        X
-                                    </button>
-                                </a>
+                            <a data-bs-dismiss="modal" aria-label="Close">
+                                <button type="button" class="round-button" style="border-radius: 50%; padding: 5px;">
+                                    X
+                                </button>
+                            </a>
                         </div>
                         <div class="modal-body">
                             <img width="100%" height="100%"
@@ -432,11 +482,11 @@
                         <div class="modal-header">
                             <h1 class="modal-title fs-5" id="staticBackdropLabel">Estratos socioeconómicos en la
                                 metrópoli</h1>
-                                <a data-bs-dismiss="modal" aria-label="Close">
-                                    <button type="button" class="round-button"  style="border-radius: 50%; padding: 5px;" >
-                                        X
-                                    </button>
-                                </a>
+                            <a data-bs-dismiss="modal" aria-label="Close">
+                                <button type="button" class="round-button" style="border-radius: 50%; padding: 5px;">
+                                    X
+                                </button>
+                            </a>
                         </div>
                         <div class="modal-body">
                             <img width="100%" height="100%" src="assets/img/mapas_hd/resized/mapa_socioeconomico.jpg">
@@ -454,7 +504,7 @@
                             <h1 class="modal-title fs-5" id="staticBackdropLabel">Nivel de daños por sismo de 8.8 Mw
                             </h1>
                             <a data-bs-dismiss="modal" aria-label="Close">
-                                <button type="button" class="round-button"  style="border-radius: 50%; padding: 5px;" >
+                                <button type="button" class="round-button" style="border-radius: 50%; padding: 5px;">
                                     X
                                 </button>
                             </a>
